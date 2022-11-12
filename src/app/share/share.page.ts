@@ -18,8 +18,8 @@ export class SharePage implements OnInit {
   
   async sharesocial(){
     await Share.share({
-      title: 'See cool stuff',
-      text: 'Really awesome thing you need to see right meow',
+      title: 'Monthly Installment',
+      text: 'Really awesome thing you need to see right mow',
       url: 'http://ionicframework.com/',
       dialogTitle: 'Share with buddies',
     });
