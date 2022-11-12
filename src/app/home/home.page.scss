@@ -1,27 +1,37 @@
-#container {
-  text-align: center;
+// .calc-main {
+//   background-color: #000000;
+//   height: 100%;
+// }
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
+// .calc-display {
+//   background-color: #000000;
+//   padding: 60px 15px 20px;
+// }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
+// ion-input {
+//   color: #ffffff;
+//   font-size: 48px;
+// }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
+// ion-col {
+//   padding: 0;
+//   margin: 0;
+//   text-align: center;
+// }
 
-  color: #8c8c8c;
+// ion-button {
+//   height: 50px;
+//   width: 50px;
+//   border-radius: 50;
+//   font-size: 20px;
+// }
 
-  margin: 0;
-}
+// .double-width {
+//   width: 86%;
+// }
 
-#container a {
-  text-decoration: none;
-}
+#map {
+    height: 50vh;
+    border: 1px solid black;
+    margin: 20px;
+  }

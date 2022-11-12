@@ -1,0 +1,43 @@
+// div{
+//   text-align: center;
+//   ion-list{
+//     text-align: center;
+//     padding-top: 20px;
+//     height: 100px;
+//     width: 100px;
+//     border: 1px solid black;
+//     border-radius: 50%;
+//     margin-left: auto;
+//     margin-right: auto;
+//     margin-top: 20px;
+//   }
+//   ion-button{
+//     ion-icon{
+//       margin-top: -30px;
+//       font-size: 24px;
+//       color: crimson;
+//     }
+//   }
+// }
+ion-accordion {
+  margin: 0 auto;
+}
+
+ion-accordion.accordion-expanding,
+ion-accordion.accordion-expanded {
+width: calc(100% - 32px);
+
+margin: 16px auto;
+}
+
+ion-accordion.accordion-collapsing ion-item[slot="header"],
+ion-accordion.accordion-collapsed ion-item[slot="header"] {
+--background: var(--ion-color-light);
+--color: var(--ion-color-light-contrast);
+}
+
+ion-accordion.accordion-expanding ion-item[slot="header"],
+ion-accordion.accordion-expanded ion-item[slot="header"] {
+--background: var(--ion-color-primary);
+--color: var(--ion-color-primary-contrast);
+}

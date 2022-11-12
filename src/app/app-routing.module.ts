@@ -11,6 +11,30 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'test',
+    loadChildren: () => import('./test/test.module').then( m => m.TestPageModule)
+  },
+  {
+    path: 'test2',
+    loadChildren: () => import('./test2/test2.module').then( m => m.Test2PageModule)
+  },
+  {
+    path: 'get',
+    loadChildren: () => import('./get/get.module').then( m => m.GetPageModule)
+  },
+  {
+    path: 'modal',
+    loadChildren: () => import('./modal/modal.module').then( m => m.ModalPageModule)
+  },
+  {
+    path: 'pdf',
+    loadChildren: () => import('./pdf/pdf.module').then( m => m.PdfPageModule)
+  },
+  {
+    path: 'share',
+    loadChildren: () => import('./share/share.module').then( m => m.SharePageModule)
+  },
 ];
 
 @NgModule({

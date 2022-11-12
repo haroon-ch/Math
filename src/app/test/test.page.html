@@ -1,0 +1,74 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  
+  <div>
+    <ion-list>
+        <img src="{{photo.image}}" id="cameraImage">
+    </ion-list>
+    <ion-button (click)="addNewToGallery()">
+      Upload img
+    </ion-button>
+    </div>z
+  
+  
+    <ion-list>
+      <ion-item>
+        <ion-label position="floating">Name</ion-label>
+        <ion-input [(ngModel)]="photo.name"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Email</ion-label>
+        <ion-input [(ngModel)]="photo.email"></ion-input>
+      </ion-item>
+  
+      <div class="ion-text-center">
+        <ion-button (click)="PhotoData()">Submit</ion-button>
+        <ion-button (click)="PhotoUpdate()">Update</ion-button>
+      </div>
+    </ion-list>
+
+
+
+</ion-content>
+
+
+
+
+
+
+
+
+
+<!-- 
+ion-range>
+    <ion-icon slot="start" name="snow-outline"></ion-icon>
+    <ion-icon slot="end" name="sunny-outline"></ion-icon>
+  </ion-range>
+
+  <ion-range [dualKnobs]="true" [value]="{ lower: 20, upper: 80 }"></ion-range>
+
+  <ion-range [pin]="true" [pinFormatter]="pinFormatter"></ion-range>
+
+  <ion-range [ticks]="true" [snaps]="true" [min]="0" [max]="10"></ion-range>
+
+  <ion-range (ionChange)="onIonChange($event)"></ion-range>
+<ion-label>ionChange emitted value: {{ lastEmittedValue }}</ion-label>
+
+
+<ion-range (ionKnobMoveStart)="onIonKnobMoveStart($event)" (ionKnobMoveEnd)="onIonKnobMoveEnd($event)"></ion-range>
+<div>
+  <ion-label>ionKnobMoveStart: {{ moveStart }}</ion-label>
+</div>
+<div>
+  <ion-label>ionKnobMoveEnd: {{ moveEnd }}</ion-label>
+</div>
+
+<ion-range [value]="50" class="range" [pin]="true"></ion-range>
+
+<ion-range [min]="0" [max]="10" [value]="5" [pin]="true" [ticks]="true" [snaps]="true"></ion-range> -->
