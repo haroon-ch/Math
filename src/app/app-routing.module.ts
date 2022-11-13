@@ -35,6 +35,10 @@ const routes: Routes = [
     path: 'share',
     loadChildren: () => import('./share/share.module').then( m => m.SharePageModule)
   },
+  {
+    path: 'clipboard',
+    loadChildren: () => import('./clipboard/clipboard.module').then( m => m.ClipboardPageModule)
+  },
 ];
 
 @NgModule({
