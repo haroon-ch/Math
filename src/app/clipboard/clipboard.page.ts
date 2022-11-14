@@ -10,10 +10,11 @@ export class ClipboardPage implements OnInit {
 
   constructor() { }
 
+
+  
   ngOnInit() {
   }
   
-
     writeToClipboard = async () => {
       await Clipboard.write({
         string: "Hello World!"
