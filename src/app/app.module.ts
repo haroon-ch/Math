@@ -12,9 +12,6 @@ import { File } from '@ionic-native/file/ngx';
 import { FileOpener } from '@ionic-native/file-opener/ngx';
 
 
-// import { SocialShareComponent } from './components/social-share/social-share.component';
-// import { SocialSharingOriginal } from '@ionic-native/social-sharing/ngx';
-
 
 
 
@@ -24,7 +21,6 @@ import { FileOpener } from '@ionic-native/file-opener/ngx';
   providers: [
     FileOpener,
     File,
-    // SocialSharingOriginal,
     { 
     provide: RouteReuseStrategy, 
     useClass: IonicRouteStrategy,
