@@ -16,7 +16,8 @@ export class SharePage implements OnInit {
   ngOnInit() {}
 
 
-    
+
+      
   async sharesocial(){
     await Share.share({
       title: 'Monthly Installment',

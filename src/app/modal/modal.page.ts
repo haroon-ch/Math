@@ -44,7 +44,7 @@ export class ModalPage implements OnInit {
   //     'dismissed': true
   //   });
   // }
-
+//data
 
   
 
