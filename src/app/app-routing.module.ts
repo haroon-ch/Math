@@ -39,6 +39,10 @@ const routes: Routes = [
     path: 'clipboard',
     loadChildren: () => import('./clipboard/clipboard.module').then( m => m.ClipboardPageModule)
   },
+  {
+    path: 'printer',
+    loadChildren: () => import('./printer/printer.module').then( m => m.PrinterPageModule)
+  },
 ];
 
 @NgModule({
