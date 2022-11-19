@@ -11,13 +11,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { File } from '@ionic-native/file/ngx';
 import { FileOpener } from '@ionic-native/file-opener/ngx';
 
-
+import { SwiperModule } from 'swiper/angular';
 
 
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,HttpClientModule],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule,HttpClientModule,SwiperModule],
   providers: [
     FileOpener,
     File,

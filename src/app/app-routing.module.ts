@@ -43,6 +43,10 @@ const routes: Routes = [
     path: 'printer',
     loadChildren: () => import('./printer/printer.module').then( m => m.PrinterPageModule)
   },
+  {
+    path: 'swiper',
+    loadChildren: () => import('./swiper/swiper.module').then( m => m.SwiperPageModule)
+  },
 ];
 
 @NgModule({
