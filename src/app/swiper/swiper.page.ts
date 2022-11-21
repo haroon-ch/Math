@@ -20,13 +20,13 @@ export class SwiperPage implements OnInit {
 
   ngOnInit() {
   }
-
+ //config
   Config : SwiperOptions = {
     scrollbar: { draggable: false },
   }
 
  
-  
+  //button
   slideNext(){
     this.swiper.swiperRef.slideNext(100);
   }
