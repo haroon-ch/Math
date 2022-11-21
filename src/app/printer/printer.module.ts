@@ -7,13 +7,16 @@ import { IonicModule } from '@ionic/angular';
 import { PrinterPageRoutingModule } from './printer-routing.module';
 
 import { PrinterPage } from './printer.page';
+import {NgxPrintModule} from 'ngx-print';
+
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    PrinterPageRoutingModule
+    PrinterPageRoutingModule,
+    NgxPrintModule
   ],
   declarations: [PrinterPage]
 })

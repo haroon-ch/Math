@@ -41,6 +41,7 @@
     "dom-to-image": "^2.6.0",
     "ionicons": "^6.0.3",
     "ng2-search-filter": "^0.5.1",
+    "ngx-print": "^1.2.1",
     "pdfmake": "^0.2.5",
     "rxjs": "~6.6.0",
     "swiper": "^8.4.4",
