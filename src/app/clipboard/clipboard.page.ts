@@ -15,17 +15,19 @@ export class ClipboardPage implements OnInit {
   ngOnInit() {
   }
   
-    writeToClipboard = async () => {
-      await Clipboard.write({
-        string: "Hello World!"
-      });
-    };
-  
-  
-   checkClipboard = async () => {
-    const { type, value } = await Clipboard.read();
-  
-    console.log(`Got ${type} from clipboard: ${value}`);
+
+  writeToClipboard = async () => {
+    await Clipboard.write({
+      string: "Hello World!"
+    });
   };
 
+  
+ 
+    checkClipboard = async () => {
+      const { type, value } = await Clipboard.read();
+    
+      console.log(`Got ${type} from clipboard: ${value}`);
+    };
+  
 }
