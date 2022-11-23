@@ -1,10 +1,12 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>swiper</ion-title>
+    <ion-title>Swiper.js Demo</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+
+
 
   <swiper class="mySwiper" #swiper [config]="Config" [pagination]="true" [virtual]="true" >
     <ng-template swiperSlide><img src="./../../assets/ttt.jpg" alt=""></ng-template>
@@ -18,8 +20,8 @@
     <ng-template swiperSlide><img src="./../../assets/ttt.jpg" alt=""></ng-template>
   </swiper>
   
-  <ion-button (click)="slideNext()">Next slide</ion-button>
-  <ion-button (click)="slidePrev()">Prev slide</ion-button>
+  <ion-button (click)="slideNext()">Next Slide</ion-button>
+  <ion-button (click)="slidePrev()">Prev Slide</ion-button>
 
 
 </ion-content>
