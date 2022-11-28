@@ -16,7 +16,9 @@ import { NgxPrintModule } from 'ngx-print';
 
 
 // Import plugin
-import { ImagePicker } from '@ionic-native/image-picker/ngx';
+// import { ImagePicker } from '@ionic-native/image-picker/ngx';
+
+
 
 
 @NgModule({
@@ -28,12 +30,12 @@ import { ImagePicker } from '@ionic-native/image-picker/ngx';
       HttpClientModule,
       SwiperModule,
       NgxPrintModule,
-      
+      HttpClientModule
   ],
   providers: [
     FileOpener,
     File,
-    ImagePicker,
+    // ImagePicker,
     { 
     provide: RouteReuseStrategy, 
     useClass: IonicRouteStrategy}],
