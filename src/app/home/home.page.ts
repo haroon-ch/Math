@@ -1,4 +1,5 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
 
 import { Chart, registerables } from 'chart.js';
 Chart.register(...registerables);
@@ -21,8 +22,13 @@ export class HomePage {
   // public chart8:any;
   // public chart9:any;
 
- 
+  constructor(public route:Router){
 
+  }
+ 
+  picker(){
+    this.route.navigate(['image-picker'])
+  }
 
   ngOnInit(): void{
     // this.createChart();

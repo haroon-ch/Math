@@ -47,6 +47,10 @@ const routes: Routes = [
     path: 'swiper',
     loadChildren: () => import('./swiper/swiper.module').then( m => m.SwiperPageModule)
   },
+  {
+    path: 'image-picker',
+    loadChildren: () => import('./image-picker/image-picker.module').then( m => m.ImagePickerPageModule)
+  },
 ];
 
 @NgModule({
