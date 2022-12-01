@@ -52,7 +52,7 @@ export class ImagePickerPage implements OnInit {
 					// this.loadFileData(result.files);
 				},
 				async (err) => {
-					// Folder does not yet exists!
+					  
 					await Filesystem.mkdir({
 						path: IMAGE_DIR,
 						directory: Directory.Data
