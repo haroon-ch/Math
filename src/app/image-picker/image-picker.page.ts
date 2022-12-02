@@ -15,7 +15,6 @@ interface LocalFile {
 }
 
 
-
 @Component({
   selector: 'app-image-picker',
   templateUrl: './image-picker.page.html',
