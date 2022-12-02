@@ -12,6 +12,7 @@ import { ImagePickerPage } from './image-picker.page';
   imports: [
     CommonModule,
     FormsModule,
+    
     IonicModule,
     ImagePickerPageRoutingModule
   ],

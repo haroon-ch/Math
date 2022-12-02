@@ -1,4 +1,3 @@
-
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
@@ -16,7 +15,7 @@ import { SwiperModule } from 'swiper/angular';
 import { NgxPrintModule } from 'ngx-print';
 
 
-// Import plugin
+// Import plugin//
 // import { ImagePicker } from '@ionic-native/image-picker/ngx';
 
 
@@ -36,7 +35,7 @@ import { NgxPrintModule } from 'ngx-print';
   providers: [
     FileOpener,
     File,
-    // ImagePicker,
+    // ImagePicker
     { 
     provide: RouteReuseStrategy, 
     useClass: IonicRouteStrategy}],
