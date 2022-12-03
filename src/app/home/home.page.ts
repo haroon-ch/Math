@@ -11,6 +11,7 @@ Chart.register(...registerables);
 })
 export class HomePage {
 
+  d:any;
 
   // public chart: any;
   // public chart2:any;
@@ -41,6 +42,13 @@ export class HomePage {
     // this.createChart8();
     // this.createChart9();
   }
+
+ month(){
+  this.d = new Date().getMonth;
+  console.log(this.d);
+  
+ }
+ 
 
 
   // createChart(){
