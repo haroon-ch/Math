@@ -41,6 +41,7 @@
     "@types/papaparse": "^5.3.5",
     "chart.js": "^3.9.1",
     "cordova-cli": "^1.0.0",
+    "date-fns": "^2.29.3",
     "dom-to-image": "^2.6.0",
     "ionicons": "^6.0.3",
     "ng2-search-filter": "^0.5.1",

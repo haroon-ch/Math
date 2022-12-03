@@ -13,6 +13,8 @@ export class HomePage {
 
   d:any;
 
+  public data:{next:''}
+
   // public chart: any;
   // public chart2:any;
   // public chart3:any;
@@ -31,7 +33,7 @@ export class HomePage {
     this.route.navigate(['image-picker'])
   }
 
-  ngOnInit(): void{
+  ngOnInit(){
     // this.createChart();
     // this.createChart2();
     // this.createChart3();
@@ -41,13 +43,17 @@ export class HomePage {
     // this.createChart7();
     // this.createChart8();
     // this.createChart9();
+    this.netxdate();
   }
 
- month(){
-  this.d = new Date().getMonth;
-  console.log(this.d);
-  
- }
+  netxdate(){
+    const date = new Date();
+    const next =  new Date(date.getFullYear(), date.getMonth() + 1, 1);
+   console.log(next);
+   
+    // console.log(date);
+   
+  }
  
 
 
