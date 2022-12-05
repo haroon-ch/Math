@@ -41,10 +41,12 @@ export class HomePage {
     // this.createChart5();
     // this.createChart6();
     // this.createChart7();
+    
     // this.createChart8();
     // this.createChart9();
     this.netxdate();
   }
+
 
   netxdate(){
     const date = new Date();
