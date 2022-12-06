@@ -21,7 +21,6 @@ export class ClipboardPage implements OnInit {
       string: "Hello World!"
     });
   };
-
   
  
     checkClipboard = async () => {
