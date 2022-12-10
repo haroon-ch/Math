@@ -10,6 +10,7 @@ Chart.register(...registerables);
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  birthday = new Date(0, 0, 0);
 
   d:any;
 
@@ -25,10 +26,13 @@ export class HomePage {
   // public chart8:any;
   // public chart9:any;
 
+   
+
   constructor(public route:Router){
 
   }
  
+  
   picker(){
     this.route.navigate(['image-picker'])
   }
@@ -44,18 +48,17 @@ export class HomePage {
     
     // this.createChart8();
     // this.createChart9();
-    this.netxdate();
+  
   }
 
 
-  netxdate(){
-    const date = new Date();
-    const next =  new Date(date.getFullYear(), date.getMonth() + 1, 1);
-   console.log(next);
+  // netxdate(){
+  //   const date = new Date();
+  //   const next =  new Date(date.getFullYear(), date.getMonth() + 1, 1);
+  //  console.log(next);
+  
    
-    // console.log(date);
-   
-  }
+  // }
  
 
 
