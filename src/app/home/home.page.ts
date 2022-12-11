@@ -15,6 +15,7 @@ export class HomePage {
   d:any;
 
   public data:{next:''}
+  
 
   // public chart: any;
   // public chart2:any;

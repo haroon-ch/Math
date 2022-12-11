@@ -12,7 +12,6 @@ export class ApicallService {
  
   constructor( public authservice:AuthService, public global: GlobalService,public router:Router) { }
 
-
   async api_postProfile(data: any) {
     await this.authservice.con(data , 'insert_Profile').then((result) => {
        this.data = JSON.parse(String(result));
