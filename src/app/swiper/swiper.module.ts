@@ -9,6 +9,7 @@ import { SwiperPageRoutingModule } from './swiper-routing.module';
 import { SwiperPage } from './swiper.page';
 import { SwiperModule } from 'swiper/angular';
 
+
 @NgModule({
   imports: [
     CommonModule,

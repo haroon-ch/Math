@@ -15,7 +15,6 @@ import { SwiperModule } from 'swiper/angular';
 import { NgxPrintModule } from 'ngx-print';
 
 
-
 // Import plugin//
 // import { ImagePicker } from '@ionic-native/image-picker/ngx';
 
