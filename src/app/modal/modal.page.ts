@@ -22,6 +22,7 @@ export class ModalPage implements OnInit {
     // this.photo = this.userdata;
   }
 
+  
   // public async addNewToGallery() {
   //   const img = await Camera.getPhoto({
   //     quality: 90,

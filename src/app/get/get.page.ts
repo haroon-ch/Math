@@ -51,6 +51,7 @@ export class GetPage implements OnInit {
     });
     return await modal.present();
   }
+  
 
 
   PhotoUpdate(item){
