@@ -5,7 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { Test2PageRoutingModule } from './test2-routing.module';
-
 import { Test2Page } from './test2.page';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
 

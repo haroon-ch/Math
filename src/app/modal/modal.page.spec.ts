@@ -22,3 +22,4 @@ describe('ModalPage', () => {
     expect(component).toBeTruthy();
   });
 });
+
