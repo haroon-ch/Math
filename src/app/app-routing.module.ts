@@ -51,7 +51,11 @@ const routes: Routes = [
   {
     path: 'image-picker',
     loadChildren: () => import('./image-picker/image-picker.module').then( m => m.ImagePickerPageModule)
+  },  {
+    path: 'min-max',
+    loadChildren: () => import('./min-max/min-max.module').then( m => m.MinMaxPageModule)
   },
+
 ];
 
 @NgModule({
